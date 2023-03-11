@@ -4,13 +4,68 @@
 
 header {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    flex-direction: row;
     background-color: red;
 }
+
+.name {
+    justify-content: flex-start;
+    background-color: purple;
+}
+
+.nav-bar {
+    justify-content: right;
+    background-color: brown;
+}
+
 .banner {
+    display: flex;
     background-color: green;
 }
+
+.subtitle {
+    flex: auto
+    justify-content: right;
+    align-content: end;
+    background-color: aqua;
+}
+
 main {
+    flex-direction: column;
     background-color: blue;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+ .about-me {
+    display: flex;
+    background-color: darkred;
+    padding: 10px;
+ }
+
+ .work {
+    display: flex;
+    padding: 10px;
+ }
+
+.contact {
+    display: flex;
+    background-color: blueviolet;
+    padding: 10px;
+    justify-content: space-between;
+}
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-titles {
+    background-color: orange;
+    justify-content: space-around;
+    flex-basis: 25%;
+
+}
+.right-border {
+    border-right: 5px solid ;
 }
