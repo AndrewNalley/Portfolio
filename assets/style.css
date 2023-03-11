@@ -1,0 +1,93 @@
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    overflow: scroll;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: red;
+}
+
+.name {
+    justify-content: flex-start;
+    background-color: purple;
+}
+
+.nav-bar {
+    justify-content: right;
+    background-color: brown;
+}
+
+.banner {
+    display: flex;
+    background-color: green;
+    justify-content: space-between;
+}
+
+.pic {
+    background-color:cyan;
+    }
+
+.subtitle {
+    background-color: yellow;
+    justify-self: right;
+
+}
+
+main {
+    background-color: blue;
+}
+ .about-me {
+    display: flex;
+    justify-content: center;
+    background-color: darkred;
+ }
+
+ .about-me-content {
+    background-color: aquamarine;
+ }
+
+ .work {
+    display: flex;
+    justify-content: center;
+    background-color: chocolate;
+ }
+
+ .projects {
+    background-color: rgb(179, 245, 245);
+ }
+ 
+ .large-project {
+    background-color: burlywood;
+ }
+ .small-project {
+    background-color: darksalmon;
+ }
+ .project-title {
+    background-color: rgb(169, 125, 210);
+ }
+
+.contact {
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+}
+.contact-info {
+    justify-self: right;
+    background-color: antiquewhite;
+}
+
+.left-titles {
+    background-color: orange;
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: right;
+
+
+}
+.right-border {
+    border-right: 10px dotted;
+}
