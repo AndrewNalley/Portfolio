@@ -1,6 +1,7 @@
 * {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 10px;
+    overflow: scroll;
 }
 
 header {
@@ -37,14 +38,12 @@ header {
 }
 
 main {
-    flex-direction: column;
     background-color: blue;
-    flex-wrap: wrap;
 }
  .about-me {
     display: flex;
+    justify-content: center;
     background-color: darkred;
-    justify-content: space-between;
  }
 
  .about-me-content {
@@ -53,12 +52,12 @@ main {
 
  .work {
     display: flex;
+    justify-content: center;
     background-color: chocolate;
-    justify-content:space-between;
  }
 
  .projects {
-    background-color: azure;
+    background-color: rgb(179, 245, 245);
  }
  
  .large-project {
@@ -73,27 +72,22 @@ main {
 
 .contact {
     display: flex;
+    justify-content: center;
     background-color: blueviolet;
-    justify-content: space-between;
 }
 .contact-info {
-    display: flex;
-    flex-flow: wrap row;
-    background-color: lightgreen;
-    justify-content: space-around;
-}
-
-main section p {
-    justify-content: center;
-    background-color: rgb(23, 23, 243);
+    justify-self: right;
+    background-color: antiquewhite;
 }
 
 .left-titles {
     background-color: orange;
-    justify-content: space-around;
-    flex-basis: 25%;
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: right;
+
 
 }
 .right-border {
-    border-right: 5px solid ;
+    border-right: 10px dotted;
 }
