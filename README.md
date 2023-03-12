@@ -57,6 +57,9 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Credits
 
+Nav Bar:
+https://www.codinglabweb.com/2021/03/navigation-bar-with-scroll-to-top.html
+
 List your collaborators, if any, with links to their GitHub profiles.
 
 If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.

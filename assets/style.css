@@ -40,7 +40,7 @@ header {
 main {
     background-color: blue;
 }
- .about-me {
+ #about-me {
     display: flex;
     justify-content: center;
     background-color: darkred;
@@ -50,7 +50,7 @@ main {
     background-color: aquamarine;
  }
 
- .work {
+ #work {
     display: flex;
     justify-content: center;
     background-color: chocolate;
@@ -70,7 +70,7 @@ main {
     background-color: rgb(169, 125, 210);
  }
 
-.contact {
+#contact {
     display: flex;
     justify-content: center;
     background-color: blueviolet;
