@@ -48,6 +48,8 @@ main {
 
  .about-me-content {
     background-color: aquamarine;
+    float: left;
+    width: 50%;
  }
 
  #work {
@@ -58,6 +60,8 @@ main {
 
  .projects {
     background-color: rgb(179, 245, 245);
+    float: left;
+    width: 50%;
  }
  
  .large-project {
@@ -78,6 +82,8 @@ main {
 .contact-info {
     justify-self: right;
     background-color: antiquewhite;
+    float: left;
+    width: 50%;
 }
 
 .left-titles {
@@ -85,8 +91,9 @@ main {
     font-size: 30px;
     text-decoration: underline;
     text-align: right;
-
-
+    float: left;
+    width: 50%;
+    
 }
 .right-border {
     border-right: 10px dotted;
