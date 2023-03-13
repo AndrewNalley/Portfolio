@@ -7,7 +7,6 @@
 header {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     background-color: red;
 }
 
@@ -24,17 +23,17 @@ header {
 .banner {
     display: flex;
     background-color: green;
-    justify-content: space-between;
 }
 
-.pic {
-    background-color:cyan;
-    }
+.banner-img {
+    position: relative;
+
+}
 
 .subtitle {
     background-color: yellow;
-    justify-self: right;
-
+    position: absolute;
+    align-self: self-end;
 }
 
 main {
@@ -63,12 +62,24 @@ main {
     float: left;
     width: 50%;
  }
+
+ .large-img {
+    width: 50vw;
+    position: relative;
+ }
  
  .large-project {
     background-color: burlywood;
  }
+
+ .small-img {
+    width: 20vw;
+    position: relative;
+ }
  .small-project {
     background-color: darksalmon;
+    display: inline-flex;
+    flex-wrap: wrap;
  }
  .project-title {
     background-color: rgb(169, 125, 210);
@@ -78,10 +89,12 @@ main {
     display: flex;
     justify-content: center;
     background-color: blueviolet;
+    height: 20vh;
 }
 .contact-info {
-    justify-self: right;
     background-color: antiquewhite;
+    display: inline-flex;
+    flex-wrap: wrap;
     float: left;
     width: 50%;
 }
@@ -90,11 +103,13 @@ main {
     background-color: orange;
     font-size: 30px;
     text-decoration: underline;
-    text-align: right;
+    text-align: right;;
     float: left;
     width: 50%;
     
 }
 .right-border {
-    border-right: 10px dotted;
+    position: relative;
+    border-right: 10px solid;
+    bottom: 50%;
 }
