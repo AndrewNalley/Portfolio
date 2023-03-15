@@ -60,6 +60,8 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 Nav Bar:
 https://www.codinglabweb.com/2021/03/navigation-bar-with-scroll-to-top.html
 
+Background Gradient: https://gradients.shecodes.io/gradients/575
+
 List your collaborators, if any, with links to their GitHub profiles.
 
 If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
