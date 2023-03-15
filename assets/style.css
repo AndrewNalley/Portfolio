@@ -1,5 +1,5 @@
 * {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 10px;
     overflow: scroll;
 }
@@ -7,25 +7,38 @@
 header {
     display: flex;
     justify-content: space-between;
-    background-color: red;
+    background: linear-gradient(179.2deg, rgba(233, 0, 144, 0.58) 0%, rgb(60, 1, 86) 29.7%, rgb(8, 0, 153) 63.4%, rgb(34, 34, 34) 100.1%);
+
 }
 
 .name {
-    justify-content: flex-start;
-    background-color: purple;
+    flex-basis: 50%;
+    align-self: center;
+    justify-items: space-between;
+    color: rgb(238, 246, 241);
+    font-size: xx-large;
+    font-weight: 900;
+    font-stretch: expanded;
+    font-family: Garamond, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(11, 11, 52);
+    opacity: 0.5;
 }
 
 .nav-bar {
     justify-content: right;
     background-color: brown;
 }
+    button:hover {
+        font: bold;
+    }
+
 
 .banner {
     display: flex;
-    background-color: green;
-}
-
-.banner-img {
+    min-height: 20vh;
+    ;
+    background-size: cover;
+    background: linear-gradient(179.2deg, rgb(34, 34, 34) 0%, rgb(8, 0, 153) 29.7%, rgb(118, 6, 166) 63.4%, rgba(233, 0, 0, 0.58) 100.1%);
     position: relative;
 
 }
@@ -33,57 +46,61 @@ header {
 .subtitle {
     background-color: yellow;
     position: absolute;
-    align-self: self-end;
+    align-self: center;
+    right: 5px;
 }
 
 main {
     background-color: blue;
 }
- #about-me {
+
+#about-me {
     display: flex;
     justify-content: center;
     background-color: darkred;
- }
+}
 
- .about-me-content {
+.about-me-content {
     background-color: aquamarine;
     float: left;
     width: 50%;
- }
+}
 
- #work {
+#work {
     display: flex;
     justify-content: center;
     background-color: chocolate;
- }
+}
 
- .projects {
+.projects {
     background-color: rgb(179, 245, 245);
     float: left;
     width: 50%;
- }
+}
 
- .large-img {
+.large-img {
     width: 50vw;
     position: relative;
- }
- 
- .large-project {
-    background-color: burlywood;
- }
+}
 
- .small-img {
+.large-project {
+    background-color: burlywood;
+}
+
+.small-img {
     width: 20vw;
     position: relative;
- }
- .small-project {
+}
+
+.small-project {
     background-color: darksalmon;
     display: inline-flex;
     flex-wrap: wrap;
- }
- .project-title {
+}
+
+.project-title {
     background-color: rgb(169, 125, 210);
- }
+}
 
 #contact {
     display: flex;
@@ -91,6 +108,7 @@ main {
     background-color: blueviolet;
     height: 20vh;
 }
+
 .contact-info {
     background-color: antiquewhite;
     display: inline-flex;
@@ -103,11 +121,13 @@ main {
     background-color: orange;
     font-size: 30px;
     text-decoration: underline;
-    text-align: right;;
+    text-align: right;
+    ;
     float: left;
     width: 50%;
-    
+
 }
+
 .right-border {
     position: relative;
     border-right: 10px solid;
