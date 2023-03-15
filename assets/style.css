@@ -1,32 +1,52 @@
+:root {
+    --color1: #f5e1da; 
+    --color2: #f1f1f1; 
+    --color3: #5ec8c2; 
+    --color4: #085f63; 
+    --white-text: rgb(238, 246, 241);
+}
+
 * {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Garamond, Georgia, Times, 'Times New Roman', serif;
     padding: 10px;
     overflow: scroll;
+
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    background: linear-gradient(179.2deg, rgba(233, 0, 144, 0.58) 0%, rgb(60, 1, 86) 29.7%, rgb(8, 0, 153) 63.4%, rgb(34, 34, 34) 100.1%);
-
+    background-color:var(--color1);
+    min-height: 10vh;
 }
 
 .name {
-    flex-basis: 50%;
+    flex-basis: 40%;
     align-self: center;
     justify-items: space-between;
-    color: rgb(238, 246, 241);
+    color: var(--white-text);
     font-size: xx-large;
     font-weight: 900;
     font-stretch: expanded;
     font-family: Garamond, Georgia, Times, 'Times New Roman', serif;
-    background-color: rgb(11, 11, 52);
-    opacity: 0.5;
+    border-radius: 25px;
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+    background-color:var(--color4); 
+    opacity: 0.7;
 }
 
 .nav-bar {
+    flex-basis: 40%;
     justify-content: right;
-    background-color: brown;
+    background-color:var(--color4); 
+    color: var(--white-text);
+    opacity: 0.7;
+    border-radius: 25px;
+    padding: 20px;
+    width: 200px;
+    height: 250px;
 }
     button:hover {
         font: bold;
@@ -35,33 +55,38 @@ header {
 
 .banner {
     display: flex;
-    min-height: 20vh;
+    min-height: 10vh;
     ;
     background-size: cover;
-    background: linear-gradient(179.2deg, rgb(34, 34, 34) 0%, rgb(8, 0, 153) 29.7%, rgb(118, 6, 166) 63.4%, rgba(233, 0, 0, 0.58) 100.1%);
+    background-color:var(--color1); 
+    color: var(--white-text);
     position: relative;
 
 }
 
 .subtitle {
-    background-color: yellow;
+    background-color:var(--color4); 
+    color: var(--white-text);
+    opacity: 0.7;
     position: absolute;
     align-self: center;
     right: 5px;
+    border-left: 8px solid black;
 }
 
 main {
-    background-color: blue;
+    background-color:var(--color1);
 }
 
 #about-me {
     display: flex;
     justify-content: center;
-    background-color: darkred;
+    background-color:var(--color2);
+    color: var(--white-text);
 }
 
 .about-me-content {
-    background-color: aquamarine;
+    background-color:var(--color4);
     float: left;
     width: 50%;
 }
@@ -69,11 +94,11 @@ main {
 #work {
     display: flex;
     justify-content: center;
-    background-color: chocolate;
+    background-color:var(--color2);
 }
 
 .projects {
-    background-color: rgb(179, 245, 245);
+    background-color:var(--color3);
     float: left;
     width: 50%;
 }
@@ -84,7 +109,8 @@ main {
 }
 
 .large-project {
-    background-color: burlywood;
+    background-color:var(--color3);
+    color: var(--white-text);
 }
 
 .small-img {
@@ -93,24 +119,26 @@ main {
 }
 
 .small-project {
-    background-color: darksalmon;
+    background-color:var(--color3);
+    color: var(--white-text);
     display: inline-flex;
     flex-wrap: wrap;
 }
 
 .project-title {
-    background-color: rgb(169, 125, 210);
+    background-color:var(--color4);
+    color: var(--white-text);
 }
 
 #contact {
     display: flex;
     justify-content: center;
-    background-color: blueviolet;
+    background-color:var(--color2);
     height: 20vh;
 }
 
 .contact-info {
-    background-color: antiquewhite;
+    background-color:var(--color3);
     display: inline-flex;
     flex-wrap: wrap;
     float: left;
@@ -118,18 +146,26 @@ main {
 }
 
 .left-titles {
-    background-color: orange;
+    background-color:var(--color4);
+    opacity: 0.8;
+    color: rgb(238, 246, 241);
+    font-size: xx-large;
+    font-weight: 900;
+    font-stretch: expanded;
+    font-family: Garamond, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 25px;
+    padding: 20px;
+    width: 200px;
+    height: 80px;
     font-size: 30px;
-    text-decoration: underline;
     text-align: right;
-    ;
     float: left;
     width: 50%;
-
+    align-self: flex-start;
 }
 
 .right-border {
     position: relative;
-    border-right: 10px solid;
-    bottom: 50%;
+    border-right: 8px solid black;
+
 }
