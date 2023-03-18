@@ -1,58 +1,32 @@
-# <Your-Project-Title>
+# <Portfolio>
 
 ## Description
 
-WEEK TWO ASSIGNMENT GUIDLINES
+- This landing page will be a useful tool for me, both now and in the future, in that I can direct future employers here to view my work. The goal was to use HTML and CSS to make this page striking, legible, clear, and easy to navigate. It is striking because it uses a global color palette and makes use of soft corners. It is legible because the font is large and legible. It is clear because the styling does not get in the way of the content. It is easy to navigate because of the nav bar and the large headings. 
 
-USER STORY
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-Acceptance Criteria
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager's needs:
+This page will become an important platform for my future work, and it will be a testing area for new styles and ideas. 
 
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+Instead of being another applicant in the ocean of LinkedIn, this site will help me stand out, and I can direct future employers here directly. 
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+A simple website is often not so simple, especially if one wishes to maintain a consistent visual language. I have learned that it takes a lot of time to make a legible, usable, and attractive website. 
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
+## Table of Contents
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
-- [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
-
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+- [Tests](#tests)
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Click the nav bar to scroll!
+Project names and contact information link to the particular project or site. 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-
-    ![alt text](assets/images/screenshot.png)
+![Nav Bar](assets/images/nav-bar.png)
+![Nav Bar](assets/images/project-link.png)
+![Nav Bar](assets/images/contact-info.png)
 
 
 ## Credits
@@ -60,26 +34,44 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 Nav Bar:
 https://www.codinglabweb.com/2021/03/navigation-bar-with-scroll-to-top.html
 
-Background Gradient: https://gradients.shecodes.io/gradients/575
+Color Palette: 
+https://palettes.shecodes.io/
 
-List your collaborators, if any, with links to their GitHub profiles.
+Most other CSS: 
+https://developer.mozilla.org/en-US/docs/Web/CSS
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+MIT License
+
+Copyright (c) [2023] [Andrew Nalley]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ---
 
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-
 ## Features
 
-If your project has a lot of features, list them here.
+Nav bar that smooth scrolls to selected area.
+Live links.
+Dynamic styling
 
 ## Tests
 
