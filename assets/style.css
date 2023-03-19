@@ -157,7 +157,8 @@ main {
     display: inline-flexblock;
     background-color: var(--color4);
     color: var(--white-text);
-    padding: 5px 0px; 
+    padding: 5px 10px; 
+    border-radius: 25px;
 }
 
 #contact {
@@ -165,6 +166,7 @@ main {
     justify-content: center;
     background-color: var(--color1);
     height: 20vh;
+    
 }
 
 .contact-info {
