@@ -42,10 +42,6 @@ header {
     text-align: right;
 }
 
-.nav-bar a {
-    scroll-behavior: smooth;
-  }
-
 .button {
     display: inline-flexbox;
     padding: 12px 20px;
