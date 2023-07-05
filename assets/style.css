@@ -98,7 +98,7 @@ main {
     color: var(--white-text);
 }
 .headshot {
-    display: ;
+    display: flex
 }
 
 .about-me-content {
