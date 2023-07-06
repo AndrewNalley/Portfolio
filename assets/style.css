@@ -1,10 +1,6 @@
 :root {
-    --color1: #f5e1da;
-    --color2: #f1f1f1;
-    --color3: #5ec8c2;
-    --color4: #085f63;
-    --white-text: rgb(238, 246, 241);
-}
+    --primary: #00897b;
+  }
 
 * {
     font-family: Garamond, Georgia, Times, 'Times New Roman', serif;
@@ -30,3 +26,22 @@ text-align: center;
 .heading-left {
     text-align: left;
 }
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav {
+    display: flex;
+  }
+  @media (max-width: 767px) {
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+}
+  
