@@ -1,55 +1,61 @@
 :root {
-    --primary: #00897b;
-  }
+  --primary: #00897b;
+}
 
 * {
-    font-family: Garamond, Georgia, Times, 'Times New Roman', serif;
-    padding: 10px;
-    overflow: scroll;
-    scroll-behavior: smooth;
+  font-family: Garamond, Georgia, Times, 'Times New Roman', serif;
+  padding: 10px;
+  overflow: scroll;
+  scroll-behavior: smooth;
 }
 
 .parent {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    justify-items: stretch;
-    align-items: stretch
-}
-.grid {
-    display: grid;
-    grid-template-columns: auto auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-items: stretch;
+  align-items: stretch
 }
 
-.container {
-    di
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
 .heading-center {
-text-align: center;
+  text-align: center;
 }
 
 .heading-left {
-    text-align: left;
+  text-align: left;
 }
 
 .header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  nav {
-    display: flex;
-  }
-  @media (max-width: 767px) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+}
+
+@media (max-width: 767px) {
   nav ul {
     display: flex;
     flex-direction: column;
     margin: 0;
     padding: 0;
   }
+
+  .about-me {
+    display: flexbox;
+  }
 }
-  
+
+img {
+
+  object-fit: cover;
+}
