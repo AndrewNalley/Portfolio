@@ -18,6 +18,14 @@
     justify-items: stretch;
     align-items: stretch
 }
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.container {
+    di
+}
 
 .heading-center {
 text-align: center;
