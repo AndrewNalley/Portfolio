@@ -25,11 +25,14 @@ Click the nav bar to scroll!
 Project names and contact information link to the particular project or site. 
 
 ![Nav Bar](assets/images/nav-bar.png)
-![Nav Bar](assets/images/project-link.png)
-![Nav Bar](assets/images/contact-info.png)
+![link](assets/images/project-link.png)
+![contact info](assets/images/contact-info.png)
 
 
 ## Credits
+
+New and simplified CSS: 
+https://picocss.com/docs/
 
 Nav Bar:
 https://www.codinglabweb.com/2021/03/navigation-bar-with-scroll-to-top.html
@@ -45,7 +48,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS
 
 MIT License
 
-Copyright (c) [2023] [Andrew Nalley]
+Copyright (c) 2023 Andrew Nalley
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
